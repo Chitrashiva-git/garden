@@ -1,0 +1,139 @@
+.logo {
+    font-family:cursive;
+    font-size:50px;
+    position: absolute;
+    padding-left: 30px;
+  }
+*{
+    color: whitesmoke;
+    font-family:'Times New Roman';
+    box-sizing: border-box;
+    margin: 0px;
+}
+header {
+    position: absolute;
+    width: 100%;
+    margin: 0;
+    padding-top: 30px;
+}
+:root{
+    --main-color:rgb(237, 106, 50) ;
+}
+.tapnav{
+    float:right;
+    padding-top: 20px;
+    font-size:x-large;
+}
+.tapnav a{
+    float: left;
+    padding: 15px 20px;
+    color: whitesmoke;
+    text-decoration: none;
+}
+.tapnav a:hover{
+
+    border-top: 2px solid var(--main-color);
+    border-bottom: 2px solid var(--main-color);
+}
+.intro{
+    background-image: url(images/pic1.jpg);
+    height: 700px;
+    display:flex;
+    background-size: cover;
+    justify-content: center;
+}
+.intro-text {
+    text-align: center;
+    font-size: 55px;
+    color: whitesmoke;
+    margin-top: 260px;
+}
+button{
+    background-color: var(--main-color);
+    text-align: center;
+    padding: 12px;
+    color: cornsilk;
+    border: none;
+    border-radius: 5em;
+}
+button:hover{
+    background-color:coral ;
+    cursor: pointer;
+    color: black;
+    transform: scale(1.1);
+    transition: 0.5s;
+}
+.section-grid{
+    background-color: var(--main-color);
+    height: 550px;
+    width: 100%;
+    justify-content: center;
+    display: flex;
+}
+.section-grid a{
+    padding: 120px 30px;
+    text-align: center;
+    text-decoration: none;
+    color: azure;
+    font-size: 25px;
+}
+.grid {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+}
+.grid-box{
+    height: 270px;
+    width: 270px;
+    overflow: hidden;
+    border-radius: 50%;
+}
+.grid-box img{
+    height: 270px;
+    width: auto;
+}
+.grid-box img:hover{
+    transform: scale(1.5);
+    transition: 3s;
+}
+.about-section {
+    background-color:rgb(92, 115, 168);
+    display: flex;
+    color: azure;
+    justify-content: center;
+    height: 500px;
+    width: 100%;
+    font-size: large;
+}
+.about {
+    height: 350px;
+    width: 9500px;
+    display: flex;
+    justify-content: center;
+    padding:100px;
+}
+.about h1{
+    font-size: 20px;
+    text-orientation:upright ;
+    writing-mode: vertical-rl;
+    letter-spacing: 2.6rem;
+}
+.about img{
+    height: 300px;
+    width:auto;
+    padding: 0px 30px;
+}
+.about p{
+    padding-top: 50px;
+}
+.last{
+    background-image: url(images/pic.6.jpg);
+    height: 600px;
+    display:flex;
+    background-size: cover;
+    justify-content: center;
+}
+.locations{
+    padding-top: 60px;
+    color: white;
+    text-align: center;
+}
